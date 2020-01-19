@@ -51,6 +51,31 @@
 		:hover| 鼠标悬浮的链接
 		:foucs| 拥有焦点的链接
 		:lang(language)|拥有某个属性的节点
+		-|-
+		:first-of-type|选择某个类型元素的第一个
+		:last-of-type|选择某个类型元素的最后一个
+		:only-of-type|选择某个类型元素是父级下同类型独子的一个
+		:nth-of-type(n)|选择某个类型元素的正数第n个
+		:nth-last-type(n)|选择某个类型元素的倒数第n个
+		-|-
+		:first-child|第一个子元素
+		:last-child|最后一个子元素
+		:only-child|选择某个类型元素是父级下独子的一个
+		:nth-child(n)|选择某个类型元素是父级下同类型的第n个
+		:nth-last-child(n)|选择某个类型元素是父级下同类型的倒数第n个
+		-|-
+		:root|文档根节点
+		:empty|空节点
+		:target|活动节点
+		:enabled|启用的节点
+		:disabled|disabled的节点
+		:checked|checked的节点
+		:selection|高亮选中的节点
+		:not(e)|排除某个节点
+		:read-only|只读元素的节点
+		:required|匹配必填项的节点
+		:valid| 匹配合法的节点
+		:invalid| 匹配非法的节点
 
    - 伪元素选择器
 		
@@ -60,30 +85,6 @@
 		::after|元素之后添加内容
 		::first-letter|首字母
 		::first-line|首行
-		-|-
-		::first-of-type|选择某个类型元素的第一个
-		::last-of-type|选择某个类型元素的最后一个
-		::only-of-type|选择某个类型元素是父级下同类型独子的一个
-		::nth-of-type(n)|选择某个类型元素的正数第n个
-		::nth-last-type(n)|选择某个类型元素的倒数第n个
-		-|-
-		::first-child|第一个子元素
-		::last-child|最后一个子元素
-		::only-child|选择某个类型元素是父级下独子的一个
-		::nth-child(n)|选择某个类型元素是父级下同类型的第n个
-		::nth-last-child(n)|选择某个类型元素是父级下同类型的倒数第n个
-		-|-
-		::root|文档根节点
-		::empty|空节点
-		::target|活动节点
-		::enabled|启用的节点
-		::disabled|disabled的节点
-		::checked|checked的节点
-		::selection|高亮选中的节点
-		::not(e)|排除某个节点
-		::read-only|只读元素的节点
-		::required|匹配必填项的节点
-		::valid| 匹配合法的节点
-		::invalid| 匹配非法的节点
+		
 		
 		
