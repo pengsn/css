@@ -11,5 +11,6 @@
 3. input元素默认选中有轮廓
 		outline: none;
 		
-4. box-sizing: border-box; 
+4. box-sizing: border-box; 让div宽度=内外边距+边框+内容宽度
 
+5. table tr之间有空隙 border-collapse:collapse;
