@@ -70,7 +70,6 @@
 		:enabled|启用的节点
 		:disabled|disabled的节点
 		:checked|checked的节点
-		:selection|高亮选中的节点
 		:not(e)|排除某个节点
 		:read-only|只读元素的节点
 		:required|匹配必填项的节点
@@ -85,6 +84,7 @@
 		::after|元素之后添加内容
 		::first-letter|首字母
 		::first-line|首行
+		::selection|处理选中的文本 如颜色，鼠标
 		
 		
 		
