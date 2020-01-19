@@ -13,13 +13,3 @@
 		
 4. box-sizing: border-box; 
 
-5. FontAwesome  字体图标
-		很多文本需要一些小图标，通过下载fontAwesome文件，引入即可使用其中定义的图标
-		具体参见官网 [fontAwesome](https://www.thinkcmf.com/font/font_awesome/icons.html)
-		定义颜色即可修改
-
-6. 快速编写html代码，学习zen-coding
-	
-7. 逻辑编写css代码，学习less
-	
-8. txt增强型文本编辑，学习markdwon
